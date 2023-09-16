@@ -22,7 +22,7 @@
 
 .login-col-1 {
   text-align: center;
-
+  width: 50%;
   z-index: +1;
 }
 
@@ -59,6 +59,7 @@
 .login-col-2 {
   background-color: #fff;
   height: auto;
+  width: 50%;
   border-radius: 4.375rem 0rem 0rem 3.75rem;
   z-index: 0;
 }
@@ -72,7 +73,7 @@
 }
 
 .login-form h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-weight: 800;
   line-height: 2.625rem; /* 131.25% */
   letter-spacing: 0.13rem;
@@ -107,7 +108,7 @@
   background: var(--primary, #457b9d);
 
   color: var(--white, #fff);
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 900;
