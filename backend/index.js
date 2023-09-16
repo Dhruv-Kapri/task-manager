@@ -113,12 +113,12 @@ app.post("/logout", (req, res) => {
 });
 
 // Production Deployment (uncomment for production)
-/* app.use(express.static("../frontend/build"));
+app.use(express.static("../frontend/build"));
 app.get("*", (req, res) => {
   res.sendFile(
     path.resolve(__dirname, "..", "frontend", "build", "index.html")
   );
-}); */
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
